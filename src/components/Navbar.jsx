@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <>
       <div className="w-full flex justify-start md:justify-end lg:justify-end bg-transparent">
-        <div className="navbar md:w-10/12 lg:w-4/6 flex justify-around h-12 items-center text-white text-xl font-semibold">
+        <div className="hidden md:w-10/12 lg:w-4/6 md:flex lg:flex justify-around h-12 items-center text-white text-xl font-semibold">
           <a
             className="hover:underline cursor-pointer"
             onClick={() => handleButtonClick('about')}
