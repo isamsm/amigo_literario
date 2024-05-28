@@ -95,7 +95,7 @@ export default function Navbar() {
             depoimentos{' '}
           </a>
           <a
-            className="text-orangeSecundary hover:bg-orangeSecundary hover:text-orangePrimary hover:py-1 hover:px-5 hover:rounded-md cursor-pointer"
+            className="text-orangeSecundary bg:transparent hover:bg-orangeSecundary hover:text-orangePrimary py-1 px-5 rounded-md cursor-pointer"
             onClick={() => handleButtonClick('join')}
           >
             {' '}
