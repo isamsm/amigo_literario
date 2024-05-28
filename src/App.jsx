@@ -30,7 +30,7 @@ function App() {
                 {' '}
                 Descubra a Magia da Troca de Livros{' '}
               </h3>
-              <p className="text-xl md:text-2xl lg:text-2xl pt-2 md:w-10/12 lg:w-10/12">
+              <p className="text-lg md:text-xl lg:text-xl pt-2 md:w-10/12 lg:w-10/12">
                 {' '}
                 Bem-vindo ao Amigo Literário, uma comunidade apaixonada por
                 leitura onde você pode desapegar de livros que já leu e receber
