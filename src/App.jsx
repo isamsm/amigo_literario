@@ -281,7 +281,7 @@ function App() {
               </p>
             </div>
             <div>
-              <button className="bg-orangePrimary hover:bg-orangeSecundary hover:text-orangePrimary text-orangeThird p-3 md:w-56 lg:w-72 rounded-md text-sm md:text-2xl lg:text-2xl">
+              <button className="bg-orangePrimary hover:bg-orangeSecundary hover:text-orangePrimary text-orangeThird p-3 md:w-56 lg:w-72 rounded-md text-sm md:text-2xl lg:text-2xl font-semibold">
                 {' '}
                 inscreva-se agora{' '}
               </button>
