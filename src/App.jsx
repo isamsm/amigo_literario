@@ -199,7 +199,7 @@ function App() {
                 O Que Nossos Membros Dizem{' '}
               </h3>
             </div>
-            <div className="flex flex-col lg:flex-row lg:w-9/12 gap-5 lg:justify-around">
+            <div className="flex flex-col lg:flex-row gap-5">
               <div>
                 <div className="border md:h-64 lg:h-64 p-5 w-80 border-orangePrimary rounded-md">
                   <div className="flex items-center gap-3">
