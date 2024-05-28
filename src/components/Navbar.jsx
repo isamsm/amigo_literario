@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <>
       <div className="w-full flex justify-start md:justify-end lg:justify-end bg-transparent">
-        <div className="hidden md:w-10/12 lg:w-4/6 md:flex lg:flex justify-around h-12 items-center text-white text-xl font-semibold">
+        <nav className="hidden md:w-10/12 lg:w-4/6 md:flex lg:flex justify-around h-12 items-center text-white text-xl font-semibold">
           <a
             className="hover:underline cursor-pointer"
             onClick={() => handleButtonClick('about')}
@@ -50,7 +50,7 @@ export default function Navbar() {
             {' '}
             participe{' '}
           </a>
-        </div>
+        </nav>
       </div>
       <div className="w-screen sm:flex md:hidden lg:hidden bg-orangePrimary">
         <div className="icon-mobile flex text-white text-3xl p-2">
@@ -59,7 +59,7 @@ export default function Navbar() {
             <IoMdMenu />{' '}
           </a>
         </div>
-        <div
+        <nav
           className={
             open
               ? 'navbar-mobile flex flex-col items-center text-white text-xl font-semibold p-2'
@@ -101,7 +101,7 @@ export default function Navbar() {
             {' '}
             participe{' '}
           </a>
-        </div>
+        </nav>
       </div>
     </>
   )
