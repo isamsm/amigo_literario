@@ -1,14 +1,10 @@
-import { motion } from "framer-motion"
 import Navbar from '../components/Navbar'
 
 export default function Header() {
   return (
     <>
       <div id="header" className="bg-header w-full h-screen text-white">
-        <div className="header-content">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}>
+        <div data-aos="fade-down" className="header-content">
           <Navbar />
           <div className="h-screen">
             <div className="flex flex-col justify-center items-start h-full pl-14 md:pl-24 lg:pl-24 gap-2">
@@ -22,7 +18,6 @@ export default function Header() {
               </h2>
             </div>
           </div>
-          </motion.div>
         </div>
       </div>
     </>
