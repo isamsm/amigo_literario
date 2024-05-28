@@ -41,11 +41,11 @@ function App() {
             </div>
             <div className="flex md:pr-56 lg:pr-56">
               <img
-                className="h-48 md:h-96 lg:h-96 absolute z-40"
+                className="h-48 md:h-72 lg:h-96 absolute z-40"
                 src={about}
                 alt="Imagem de pilha de livro"
               />
-              <div className="h-48 md:h-96 lg:h-96 w-44 md:w-72 lg:w-72 relative top-5 md:top-10 lg:top-10 left-10 md:left-48 lg:left-48 z-30 rounded bg-gradient-to-b from-orangeSecundary to-orangeFourth"></div>
+              <div className="h-48 md:h-72 lg:h-96 w-44 md:w-56 lg:w-72 relative top-5 md:top-6 lg:top-10 left-10 md:left-28 lg:left-48 z-30 rounded bg-gradient-to-b from-orangeSecundary to-orangeFourth"></div>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ function App() {
             </div>
             <div className="flex flex-col gap-5 bg-orangeThird rounded-md h-6/12 lg:h-72 w-80 md:w-4/6 lg:w-2/6 p-5">
               <div className="flex gap-5 items-center">
-                <div className="bg-orangeSecundary rounded-full h-8 md:h-9 lg:h-9 w-24 md:w-14 lg:w-14">
+                <div className="bg-orangeSecundary rounded-full px-3 py-1">
                   <p className="text-orangePrimary text-2xl text-center font-bold">
                     {' '}
                     1{' '}
@@ -85,7 +85,7 @@ function App() {
                 </p>
               </div>
               <div className="flex gap-5 items-center">
-                <div className="bg-orangeSecundary rounded-full h-8 md:h-9 lg:h-9 w-16 md:w-10 lg:w-10">
+                <div className="bg-orangeSecundary rounded-full px-3 py-1">
                   <p className="text-orangePrimary text-2xl text-center font-bold">
                     {' '}
                     2{' '}
@@ -97,7 +97,7 @@ function App() {
                 </p>
               </div>
               <div className="flex gap-5 items-center">
-                <div className="bg-orangeSecundary rounded-full h-8 md:h-9 lg:h-9 w-44 md:w-24 lg:w-24">
+                <div className="bg-orangeSecundary rounded-full px-3 py-1">
                   <p className="text-orangePrimary text-2xl text-center font-bold">
                     {' '}
                     3{' '}
@@ -257,22 +257,22 @@ function App() {
         </div>
         <div
           id="join"
-          className="bg-join p-5 lg:p-0 lg:h-80 text-white flex items-center"
+          className="bg-join p-5 lg:p-0 h-56 lg:h-80 text-white flex items-center"
         >
           <div
             data-aos="fade-down"
-            className="join-content flex flex-col md:flex-row lg:flex-row gap-3 w-full items-center md:justify-around lg:justify-around"
+            className="join-content flex gap-3 w-full items-center md:justify-around lg:justify-around"
           >
-            <div className="flex flex-col md:w-5/12 lg:w-5/12 gap-2">
-              <h1 className="text-orangePrimary text-3xl md:text-4xl lg:text-4xl font-bold">
+            <div className="flex flex-col lg:w-7/12 gap-2">
+              <h1 className="text-orangePrimary text-xl md:text-3xl lg:text-4xl font-bold">
                 {' '}
                 junte-se a nós{' '}
               </h1>
-              <h3 className="text-2xl md:text-3xl lg:text-3xl font-semibold pb-5">
+              <h3 className="text-lg md:text-2xl lg:text-3xl font-semibold pb-1 lg:pb-5">
                 {' '}
                 pronto para começar?{' '}
               </h3>
-              <p className="text-lg md:text-xl lg:text-xl">
+              <p className="text-sm md:text-lg lg:text-xl">
                 {' '}
                 Entre para o Amigo Literário hoje mesmo e comece a trocar livros
                 com outros amantes da leitura. É fácil, divertido e uma maneira
@@ -281,7 +281,7 @@ function App() {
               </p>
             </div>
             <div>
-              <button className="bg-orangePrimary text-orangeThird p-3 md:w-72 lg:w-72 rounded-md text-xl md:text-2xl lg:text-2xl">
+              <button className="bg-orangePrimary hover:bg-orangeSecundary hover:text-orangePrimary text-orangeThird p-3 md:w-56 lg:w-72 rounded-md text-sm md:text-2xl lg:text-2xl">
                 {' '}
                 inscreva-se agora{' '}
               </button>
