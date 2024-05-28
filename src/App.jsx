@@ -70,7 +70,7 @@ function App() {
                 alt="Imagem entregador"
               />
             </div>
-            <div className="flex flex-col gap-5 bg-orangeThird rounded-md h-6/12 lg:h-72 w-80 md:w-4/6 lg:w-2/6 p-5">
+            <div className="flex flex-col gap-5 bg-orangeThird rounded-md h-6/12 w-80 md:w-4/6 lg:w-2/6 p-5">
               <div className="flex gap-5 items-center">
                 <div className="bg-orangeSecundary rounded-full px-3 py-1">
                   <p className="text-orangePrimary text-2xl text-center font-bold">
