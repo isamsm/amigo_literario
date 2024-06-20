@@ -1,15 +1,15 @@
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import about from './assets/about.png'
-import mail from './assets/how_it_works.png'
+import about from './assets/about.webp'
+import mail from './assets/how_it_works.webp'
 import exploration from './assets/exploration.svg'
 import sustentability from './assets/sustentability.svg'
 import community from './assets/community.svg'
 import surprise from './assets/surprise.svg'
-import maria from './assets/maria.png'
-import joao from './assets/joao.png'
-import ana from './assets/ana.png'
+import maria from './assets/maria.webp'
+import joao from './assets/joao.webp'
+import ana from './assets/ana.webp'
 
 function App() {
   return (

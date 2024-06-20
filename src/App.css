@@ -9,7 +9,7 @@
 
 .bg-header {
   position: relative;
-  background-image: url("/src/assets/header.png");
+  background-image: url("/src/assets/header.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -34,7 +34,7 @@
 
 .bg-join {
   position: relative;
-  background-image: url("/src/assets/join.png");
+  background-image: url("/src/assets/join.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
