@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="bg-newBlack text-white">
+      <footer className="bg-newBlack text-white">
         <div
           data-aos="fade-down"
           className="h-80 md:h-64 lg:h-64 gap-2 text-center flex flex-col items-center justify-center"
@@ -18,7 +18,7 @@ export default function Footer() {
             Amigo Literário - Conectando Leitores, Transformando Histórias{' '}
           </p>
         </div>
-      </div>
+      </footer>
       <div className="bg-newBlack text-white flex justify-center">
         <p className="text-sm"> © Isa Marques, 2024 </p>
       </div>

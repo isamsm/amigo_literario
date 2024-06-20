@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 export default function Header() {
   return (
     <>
-      <div id="header" className="bg-header w-full h-1/2 lg:h-screen text-white">
+      <header className="bg-header w-full h-1/2 lg:h-screen text-white">
         <div data-aos="fade-down" className="header-content">
           <Navbar />
           <div className="h-80 lg:h-screen">
@@ -19,7 +19,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-      </div>
+      </header>
     </>
   )
 }
