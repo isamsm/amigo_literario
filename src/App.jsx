@@ -15,17 +15,18 @@ function App() {
   return (
     <>
       <div className="text-newBlack font-poppins">
+        <h1 className='hidden'> Amigo literário </h1>
         <Header />
-        <div id="about">
+        <section id="about" className='max-w-[1280px] mx-auto'>
           <div
             data-aos="fade-down"
             className="h-full lg:h-screen p-10 lg:p-0 flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-0 md:gap-10 lg:justify-between"
           >
             <div className="flex flex-col gap-3 p-5 md:p-0 lg:p-0 md:pl-24 lg:pl-24">
-              <h1 className="text-orangePrimary text-3xl md:text-4xl lg:text-4xl font-bold">
+              <h2 className="text-orangePrimary text-3xl md:text-4xl lg:text-4xl font-bold">
                 {' '}
                 SOBRE{' '}
-              </h1>
+              </h2>
               <h3 className="text-2xl md:text-3xl lg:text-3xl font-semibold">
                 {' '}
                 Descubra a Magia da Troca de Livros{' '}
@@ -48,17 +49,17 @@ function App() {
               <div className="h-48 md:h-72 lg:h-96 w-44 md:w-56 lg:w-72 relative top-5 md:top-6 lg:top-10 left-10 md:left-28 lg:left-48 z-30 rounded bg-gradient-to-b from-orangeSecundary to-orangeFourth"></div>
             </div>
           </div>
-        </div>
-        <div id="how_it_works">
+        </section>
+        <section id="how_it_works" className='max-w-[1280px] mx-auto'>
           <div
             data-aos="fade-down"
             className="h-full lg:h-screen p-10 lg:p-0 flex flex-col lg:flex-row gap-5 md:gap-10 lg:gap-0 lg:justify-around items-center"
           >
             <div className="flex flex-col gap-3">
-              <h1 className="text-orangePrimary text-3xl md:text-4xl lg:text-4xl font-bold">
+              <h2 className="text-orangePrimary text-3xl md:text-4xl lg:text-4xl font-bold">
                 {' '}
                 COMO FUNCIONA?{' '}
-              </h1>
+              </h2>
               <h3 className="text-2xl md:text-3xl lg:text-3xl font-semibold pb-5">
                 {' '}
                 É Simples e Divertido{' '}
@@ -112,17 +113,17 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
-        <div id="benefits">
+        </section>
+        <section id="benefits" className='max-w-[1280px] mx-auto'>
           <div
             data-aos="fade-down"
             className="h-full lg:h-screen p-10 lg:p-0 flex flex-col justify-center gap-9 items-center text-center"
           >
             <div className="flex flex-col md:gap-3 lg:gap-3">
-              <h1 className="text-orangePrimary text-3xl md:text-4xl lg:text-4xl font-bold">
+              <h2 className="text-orangePrimary text-3xl md:text-4xl lg:text-4xl font-bold">
                 {' '}
                 BENEFÍCIOS{' '}
-              </h1>
+              </h2>
               <h3 className="text-2xl md:text-3xl lg:text-3xl font-semibold md:pb-5 lg:pb-5">
                 {' '}
                 Por Que Participar?{' '}
@@ -183,17 +184,17 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
-        <div id="clients" className="bg-orangeSecundary">
+        </section>
+        <section id="clients" className="bg-orangeSecundary">
           <div
             data-aos="fade-down"
             className="p-10 lg:p-0 h-full lg:h-screen flex flex-col justify-center md:gap-9 lg:gap-9 items-center"
           >
             <div className="flex flex-col gap-3 text-center">
-              <h1 className="text-orangePrimary text-3xl md:text-4xl lg:text-4xl font-bold">
+              <h2 className="text-orangePrimary text-3xl md:text-4xl lg:text-4xl font-bold">
                 {' '}
                 DEPOIMENTOS{' '}
-              </h1>
+              </h2>
               <h3 className="text-2xl md:text-3xl lg:text-3xl font-semibold pb-5">
                 {' '}
                 O Que Nossos Membros Dizem{' '}
@@ -254,8 +255,8 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
-        <div
+        </section>
+        <section
           id="join"
           className="bg-join p-5 lg:p-0 h-56 lg:h-80 text-white flex items-center"
         >
@@ -264,10 +265,10 @@ function App() {
             className="join-content flex gap-3 w-full items-center md:justify-around lg:justify-around"
           >
             <div className="flex flex-col lg:w-7/12 gap-2">
-              <h1 className="text-orangePrimary text-xl md:text-3xl lg:text-4xl font-bold">
+              <h2 className="text-orangePrimary text-xl md:text-3xl lg:text-4xl font-bold">
                 {' '}
                 junte-se a nós{' '}
-              </h1>
+              </h2>
               <h3 className="text-lg md:text-2xl lg:text-3xl font-semibold pb-1 lg:pb-5">
                 {' '}
                 pronto para começar?{' '}
@@ -287,7 +288,7 @@ function App() {
               </button>
             </div>
           </div>
-        </div>
+        </section>
         <Footer />
       </div>
     </>
